@@ -1,0 +1,131 @@
+{
+    "items": [{
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "Surgical Masks",
+                "price": 2500,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/masks.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "N-95 mask",
+                "price": 1800,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/n95.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "Respirator N-95",
+                "price": 2200,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/respirator.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "Scrub Cap",
+                "price": 2000,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/scrub-cap.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "Oxygen Mask",
+                "price": 1000,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/oxy-mask.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "Oxygen tank",
+                "price": 7000,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/oxy-tank.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "Nebulizer",
+                "price": 8520,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/nebu.jpg"
+                        }
+                    }
+                }
+            }
+        }, {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "Sanitizer",
+                "price": 500,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/sanitizer.jpg"
+                        }
+                    }
+                }
+            }
+        }
+
+    ]
+}

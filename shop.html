@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essentials Shop</title>
+    <link rel="stylesheet" href="shop-style.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </span>
+            <h4>
+                <i><b><em>Essentials for Pandemic!</em></b></i>
+            </h4>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <!--  navbar end -->
+
+    <!-- header backgroung image -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Necessary Items Available</h1>
+            <button class="banner-btn">Shop Now</button>
+        </div>
+    </header>
+
+    <!-- products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Products Available</h2>
+        </div>
+        <div class="products-center">
+            <!-- <article class="product">
+                <div class="img-container">
+                    <img src="/images/masks.jpg" alt="product" class="product-img" />
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to bag
+                    </button>
+                </div>
+                <h3>Surgical Mask</h3>
+                <h4>2500/=</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="/images/masks.jpg" alt="product" class="product-img" />
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to bag
+                    </button>
+                </div>
+                <h3>Surgical Mask</h3>
+                <h4>2500/=</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="/images/masks.jpg" alt="product" class="product-img" />
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to bag
+                    </button>
+                </div>
+                <h3>Surgical Mask</h3>
+                <h4>2500/=</h4>
+            </article> -->
+        </div>
+    </section>
+
+    <!-- cart -->
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!-- <div class="cart-item">
+                    <img src="/images/masks.jpg" alt="product" />
+                    <div>
+                        <h4>Surgical Mask</h4>
+                        <h5>2500/=</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div> -->
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>Your total : Rs. <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">Clear Cart</button>
+                <br />
+                <br /><br />
+                <a href="user.html"><button class="banner-btn">Proceed to Checkout</button></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <!-- 1/3rd column wise usage of footer -->
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h4>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i> Contact Us
+                    </h4>
+                    <hr class="light" />
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> 122-455-7890</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> virusinfocenter@gmail.com</p>
+                    <p><i class="fa fa-street-view" aria-hidden="true"></i> lane 53</p>
+                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Main Market,karachi,Pakistan</p>
+                </div>
+
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h4><i class="far fa-clock"></i> Our Hours</h4>
+                    <hr class="light" />
+                    <p>Monday: 9am - 5pm</p>
+                    <p>Wednesday: 9am - 5am</p>
+                    <p>Saturday: 10am - 2pm</p>
+                </div>
+
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h4><i class="far fa-address-book"></i> Addresses</h4>
+                    <hr class="light" />
+                    <p>Main Market,karachi,Pakistan</p>
+                    <p>lane 53</p>
+                    <p><i class="fa fa-building" aria-hidden="true"></i> Building No. 5</p>
+                    <p> Floor 10</p>
+
+                </div>
+
+                <!-- copyright footer -->
+                <div class="col-12">
+                    <hr class="light" />
+                    <h5>&copy; virusinfocenter.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="dist/main.bundle.js"></script>
+</body>
+
+</html>

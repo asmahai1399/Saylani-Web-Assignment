@@ -1,0 +1,223 @@
+/* html body {
+    width: 100%;
+} */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+hr {
+    border-top: 2px solid black
+}
+
+h2 {
+    color: black;
+    margin-left: 30px;
+    font-style: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.padding {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.padding p {
+    margin-left: 30px;
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+
+.caption span.title {
+    background-color: transparent;
+    color: #111;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.caption span.title:hover {
+    color: rgb(35, 0, 44);
+    text-shadow: rgb(248, 248, 46);
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: left;
+    color: #111;
+    margin-left: 40px;
+}
+
+.bgimg1 {
+    background-image: url('/images/Coronavirus.png');
+    height: 100%;
+}
+
+.bgimg2 {
+    background-image: url('/images/marburg.png');
+    height: 100%;
+}
+
+.bgimg3 {
+    background-image: url('images/Ebola-virus.jpg');
+    height: 100%;
+}
+
+.bgimg4 {
+    background-image: url('/images/rabies1.jpg');
+    height: 100%;
+}
+
+.bgimg1,
+.bgimg2,
+.bgimg3,
+.bgimg4 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 10px;
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid button.btn {
+    align-items: center;
+}
+
+
+/* modal image */
+
+#mod-img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#mod-img:hover {
+    opacity: 0.7;
+}
+
+
+/* modal background */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* modal image */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+/* caption of modal image */
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/* add animation */
+
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* close button or cross */
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 100% image widht on smaller screen */
+
+@media only screen and (max-width:700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
